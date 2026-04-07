@@ -167,7 +167,7 @@ Per project policy:
 
 Target environment:
 
-- **Pop!_OS 24.04**
+- **Pop!_OS 24.04 (Ubuntu 24.04 based)**
 - **Wayland session**
 - **ROS2**
 - **Gazebo**
