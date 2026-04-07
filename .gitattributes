@@ -1,2 +1,39 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize text files to LF
+* text=auto eol=lf
+
+# Source files
+*.py text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.launch.py text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+CMakeLists.txt text eol=lf
+
+# Model / mesh / config files
+*.sdf text eol=lf
+*.config text eol=lf
+*.urdf text eol=lf
+*.xacro text eol=lf
+*.world text eol=lf
+*.obj text eol=lf
+*.mtl text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.dae binary
+*.stl binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bag binary
+*.db3 binary
