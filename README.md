@@ -356,7 +356,9 @@ Current scope is intentionally narrow:
 
 This keeps the project reproducible, cleanly organized, and aligned with the intended workspace-local development model.
 
-## Academic Context & Acknowledgment
+---
+
+### **Academic Context & Acknowledgment**
 
 This micro-project was completed as part of:
 
@@ -366,11 +368,27 @@ Arizona State University
 **Instructor:** Prof. Jnaneshwar Das  
 **GitHub:** https://github.com/darknight-007  
 
+**Course Assignment Repository:**
+
+https://github.com/darknight-007/ses598-space-robotics-and-ai-2026
+
 The course is affiliated with the  
 **Distributed Robotic Exploration and Mapping Systems (DREAMS) Laboratory**  
 **GitHub:** https://github.com/DREAMS-lab  
 **Website:** https://deepgis.org/dreamslab  
 
 The assignment/micro-project structure, evaluation methodology, and coverage-control framework were inspired by course material and lab research themes in autonomous systems and robotic exploration.
+
+### **Author**
+
+Ayushman M. (https://github.com/aymisxx)  
+M.S. Robotics & Autonomous Systems (MAE)  
+Arizona State University  
+
+### **License**
+
+Creative Commons Attribution 4.0 International License (CC-BY-4.0)
+
+> see **LICENSE** file.
 
 ---
