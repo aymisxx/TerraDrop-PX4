@@ -63,14 +63,6 @@ TerraDrop-PX4 is scoped around the **main cylinder mission only**:
 
 ## System Overview
 
-This project uses a PX4 SITL simulation workflow with ROS2 nodes coordinating perception and action.
-
-| Node Name | Role |
-| --- | --- |
-| `takeoff.py` | Arms the drone, switches to OFFBOARD mode, performs controlled ascent, and maintains hover |
-| `aruco_landing.py` | Detects an ArUco marker from onboard vision, aligns the drone above it, and triggers landing |
-| `dimension_estimator.py` | Estimates distance to the visual marker using image geometry and camera projection |
-
 ## Core Perception and Control Logic
 
 ### 1. Takeoff and Hover
@@ -116,7 +108,7 @@ Let:
 Then:
 
 $$
-Z = \frac{f_x \, W}{w}
+Z = \frac{f_x \. W}{w}
 $$
 
 ### Parameters Used in the Original Estimator
