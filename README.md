@@ -1,5 +1,5 @@
 # **TerraDrop-PX4**  
-### Autonomous Cylinder Search, Visual Analysis, and Precision Landing with ROS2, Gazebo, and PX4
+### Autonomous Cylinder Search, Visual Analysis, and Precision Landing with ROS2, Gazebo, and PX4.
 
 TerraDrop-PX4 is a compact autonomous-drone micro-project built around a **repository-local ROS2 workspace**.  
 
