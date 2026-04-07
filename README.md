@@ -175,7 +175,7 @@ Target environment:
 
 ### Qt / Wayland Compatibility
 
-For Gazebo, RViz, and related Qt-based tools on user's machine (Pop!\_OS 24.04 LTS), use:
+For Gazebo, RViz, and related Qt-based tools on author's machine (Pop!\_OS 24.04 LTS), use:
 
 ```bash
 export QT_QPA_PLATFORM=xcb
