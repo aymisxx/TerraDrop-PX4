@@ -360,7 +360,7 @@ This keeps the project reproducible, cleanly organized, and aligned with the int
 
 ### **Academic Context & Acknowledgment**
 
-This micro-project was completed as part of:
+This micro-project/assignment was completed as part of:
 
 **SES 598: Space Robotics & AI**  
 Arizona State University  
