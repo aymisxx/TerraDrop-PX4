@@ -218,8 +218,6 @@ chmod +x scripts/deploy_px4_model.sh
 ./scripts/deploy_px4_model.sh -p ~/PX4-Autopilot
 ```
 
-This mirrors the intended local dependency workflow for the project.
-
 ## Launch Procedure
 
 ### 1. Start the simulation
@@ -269,11 +267,11 @@ ros2 run terrain_mapping_drone_control dimension_estimator.py
 
 This computes marker distance from image geometry using the pinhole model.
 
-> Ensure the drone is airborne and the target marker is visible before using the distance estimator node.
+> Ensuring the drone is airborne and the target marker is visible before using the distance estimator node.
 
 ## ROS2 Topics and Control Flow
 
-At a high level, the project uses the following pattern:
+At a high level, this uses the following pattern:
 
 - visual data arrives from the RGB camera stream.
 - marker geometry is extracted in image space.
