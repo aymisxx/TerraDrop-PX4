@@ -89,4 +89,4 @@ def create_feature_rich_texture(width=1024, height=2048):
     print(f"Detected {len(keypoints)} ORB features in the texture")
 
 if __name__ == '__main__':
-    create_feature_rich_texture()
+    create_feature_rich_texture() 

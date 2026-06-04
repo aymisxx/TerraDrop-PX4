@@ -33,4 +33,4 @@ def generate_aruco_marker():
     print(f"Generated ArUco marker at: {output_path}")
 
 if __name__ == '__main__':
-    generate_aruco_marker()
+    generate_aruco_marker() 

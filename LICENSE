@@ -1,26 +1,52 @@
-Creative Commons Attribution 4.0 International License (CC-BY-4.0)
+TerraDrop-PX4 License and Attribution Notice
 
-Copyright (c) 2024 DREAMS Lab, Arizona State University
+Copyright (c) 2026 Ayushman Mishra
 
-This work is licensed under the Creative Commons Attribution 4.0 International License.
+This repository is a standalone repackaging, documentation, and reproduction
+of a ROS 2 / PX4 / Gazebo autonomous drone assignment project.
 
-To view a copy of this license, visit:
-http://creativecommons.org/licenses/by/4.0/
+This repository includes course-provided and third-party materials. Those
+materials retain their original licenses and attribution requirements.
 
-or send a letter to:
-Creative Commons
-PO Box 1866
-Mountain View, CA 94042
-USA
+Included license notices:
 
-The full text of the license can be found at:
-https://creativecommons.org/licenses/by/4.0/legalcode
+1. terrain_mapping_drone_control package
 
-You are free to:
-* Share — copy and redistribute the material in any medium or format
-* Adapt — remix, transform, and build upon the material for any purpose, even commercially
+   See:
 
-Under the following terms:
-* Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+   ws/src/terrain_mapping_drone_control/LICENSE
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+   for the original package license and attribution notice.
+
+2. PX4 model and airframe materials
+
+   Files under:
+
+   ws/src/terrain_mapping_drone_control/models/px4_models/
+
+   may include PX4-derived airframe/model configuration files. These retain
+   their original PX4 license notices where present.
+
+3. OakD-Lite model materials
+
+   Files under:
+
+   ws/src/terrain_mapping_drone_control/models/OakD-Lite-Modify/
+
+   retain their included model/license notices.
+
+4. Course attribution
+
+   This project originated from the RAS 598: Space Robotics and AI course
+   assignment "Rocky Times Challenge - Search, Map, and Analyze."
+
+   This repository reorganizes, documents, and reproduces the working ROS 2 /
+   PX4 implementation as a standalone project while preserving academic and
+   course attribution.
+
+No endorsement by Arizona State University, DREAMS Lab, PX4, or any original
+course/material authors is implied.
+
+Unless otherwise stated in a specific subdirectory or file, original additions
+made by Ayushman Mishra for this repackaged repository are provided for
+portfolio, educational, and research demonstration purposes.
