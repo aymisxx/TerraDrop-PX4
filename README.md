@@ -131,11 +131,10 @@ A representative structure is:
 ```text
 TerraDrop-PX4/
 ├── assets/
-│   ├── rqt_graph.png
-│   ├── dimension_estimator_output.png
-│   ├── final_result.png
-│   ├── gazebo_view.png
-│   └── mission_sequence.png
+│   ├── rqt.png
+│   ├── recording.mp4
+│   ├── recording.gif
+│   └── final_Result.png
 ├── LICENSE
 ├── README.md
 └── ws/
@@ -284,6 +283,10 @@ At a high level, this uses the following pattern:
 while the landing node uses vision feedback and alignment logic prior to landing.
 
 ## Visual Results
+
+### Mission Demo
+
+![TerraDrop-PX4 autonomous landing demo](assets/recording.gif)
 
 ### ROS Graph
 
