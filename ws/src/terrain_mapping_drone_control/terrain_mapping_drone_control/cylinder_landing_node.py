@@ -33,7 +33,7 @@ class SimpleTestNode(Node):
             VehicleOdometry, '/fmu/out/vehicle_odometry', 
             self.vehicle_odometry_callback, qos_profile)
         self.vehicle_status_subscriber = self.create_subscription(
-            VehicleStatus, '/fmu/out/vehicle_status',
+            VehicleStatus, '/fmu/out/vehicle_status_v4',
             self.vehicle_status_callback, qos_profile)
             
         # Subscribe to geometry tracker outputs

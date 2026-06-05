@@ -57,7 +57,7 @@ class CylinderMission(Node):
 
         self.vehicle_odometry_sub = self.create_subscription(
             VehicleLocalPosition,
-            '/fmu/out/vehicle_local_position',
+            '/fmu/out/vehicle_local_position_v1',
             self.odom_cb, 
             qos_profile
         )
@@ -161,7 +161,7 @@ class CylinderMission(Node):
 
         self.battery_sub = self.create_subscription(
             BatteryStatus,
-            '/fmu/out/battery_status',
+            '/fmu/out/battery_status_v1',
             self.battery_cb,
             qos_profile
         )
