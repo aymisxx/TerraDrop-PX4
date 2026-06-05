@@ -284,6 +284,10 @@ while the landing node uses vision feedback and alignment logic prior to landing
 
 ## Visual Results
 
+### Initial State
+
+![Spawned](assets/initial_state.png)
+
 ### Mission Demo
 
 ![TerraDrop-PX4 autonomous landing demo](assets/recording.gif)
