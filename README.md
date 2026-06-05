@@ -134,6 +134,7 @@ TerraDrop-PX4/
 │   ├── rqt.png
 │   ├── recording.mp4
 │   ├── recording.gif
+│   ├── initial_state.png
 │   └── final_Result.png
 ├── LICENSE
 ├── README.md
@@ -294,22 +295,11 @@ while the landing node uses vision feedback and alignment logic prior to landing
 
 ### ROS Graph
 
-`assets/rqt.png`
-
 ![rqt_graph](assets/rqt.png)
 
 ### Final Result
 
-Place the final landing result image here:
-
-`assets/final_result.png`
-
 ![Final Result](assets/final_Result.png)
-
-### Created Assets
-
-- `assets/final_Result.png`
-- `assets/rqt.png`
 
 ## Node-by-Node Summary
 
