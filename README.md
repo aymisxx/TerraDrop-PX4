@@ -355,27 +355,6 @@ This keeps the project reproducible, cleanly organized, and aligned with the int
 
 ---
 
-### **Academic Context & Acknowledgment**
-
-This micro-project/assignment was completed as part of:
-
-**SES 598: Space Robotics & AI**  
-Arizona State University  
-
-**Instructor:** Prof. Jnaneshwar Das  
-**GitHub:** https://github.com/darknight-007  
-
-**Course Assignment Repository:**
-
-https://github.com/darknight-007/ses598-space-robotics-and-ai-2026
-
-The course is affiliated with the  
-**Distributed Robotic Exploration and Mapping Systems (DREAMS) Laboratory**  
-**GitHub:** https://github.com/DREAMS-lab  
-**Website:** https://deepgis.org/dreamslab  
-
-The assignment/micro-project structure, evaluation methodology, and coverage-control framework were inspired by course material and lab research themes in autonomous systems and robotic exploration.
-
 ### **Author**
 
 Ayushman M. (https://github.com/aymisxx)  
